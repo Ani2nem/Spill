@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
 import splashImg from "../public/img/splash.jpg";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -21,10 +22,17 @@ const Hero = () => {
                     target="_blank"
                     rel="noopener"
                     className="px-8 py-4 text-lg font-medium text-center text-white bg-orange-600 rounded-md ">
-                  Try Spill
+                   <Link
+                      to="spill-js"
+                      smooth={true}
+                      duration={500}
+                      className="px-8 py-4 text-lg font-medium text-center text-white bg-orange-600 rounded-md"
+                    >
+                    Try Spill
+              </Link>
                 </a>
                 <a
-                    href="https://github.com/web3templates/nextly-template/"
+                    href="https://github.com/Ani2nem/personalSpill"
                     target="_blank"
                     rel="noopener"
                     className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
@@ -56,10 +64,6 @@ const Hero = () => {
                   placeholder="blur"
               />
             </div>
-          </div>
-        </Container>
-        <Container>
-          <div className="flex flex-col justify-center">
           </div>
         </Container>
       </>
