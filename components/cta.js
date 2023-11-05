@@ -4,7 +4,7 @@ import Container from "./container";
 const Cta = () => {
   return (
     <Container>
-      <div className="flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
+      <div className="spill-js flex flex-wrap items-center justify-between w-full max-w-4xl gap-5 mx-auto text-white bg-indigo-600 px-7 py-7 lg:px-12 lg:py-12 lg:flex-nowrap rounded-xl">
         <div className="flex-grow text-center lg:text-left">
         <input
           type="text"
