@@ -14,18 +14,23 @@ const benefitOne = {
   bullets: [
     {
       title: <h1 className="text-3xl">Python</h1>,
-      desc: "Then explain the first point breifly in one or two lines.",
-      icon: <FaceSmileIcon />,
+      desc: "Allowed us to leverage a variety of libraries such as pandas, sklearn, and geopandas, to construct and map our model.",
+      icon: <ChartBarSquareIcon/>,
     },
     {
       title: <h2 className="text-3xl">React</h2>,
-      desc: "Here you can add the next benefit point.",
-      icon: <ChartBarSquareIcon />,
+      desc: "It was utilized in the development of various front-end components across multiple sections of our website.",
+      icon: <FaceSmileIcon />,
     },
     {
-      title: <h2 className="text-3xl">Tailwind</h2>,
-      desc: "This will be your last bullet point in this section.",
+      title: <h2 className="text-3xl">Tailwind CSS</h2>,
+      desc: "Facilitated the implementation of comprehensive styling solutions across our website's design framework.",
       icon: <CursorArrowRaysIcon />,
+    },
+    {
+      title: <h2 className="text-3xl">Flask</h2>,
+      desc: "Ehanced speed, responsiveness, and front-end to back-end integration.",
+      icon: <DevicePhoneMobileIcon />,
     },
   ],
 };
