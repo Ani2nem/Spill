@@ -4,24 +4,21 @@ import Navbar from "../components/navbar";
 import SectionTitle from "../components/sectionTitle";
 
 import { benefitOne } from "../components/data";
-import Video from "../components/video";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
 import Cta from "../components/cta";
-import Faq from "../components/faq";
-import PopupWidget from "../components/popupWidget";
 
 const Home = () => {
   return (
     <>
       <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
+        <title>Spill</title>
         <meta
           name="description"
           content="Nextly is a free landing page template built with next.js & Tailwind CSS"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="" />
       </Head>
 
       <Navbar />
@@ -32,14 +29,10 @@ const Home = () => {
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
-      </SectionTitle>
-      <Faq />
+        <SectionTitle
+            title="Try Spill"></SectionTitle>
       <Cta />
       <Footer />
-      <PopupWidget />
     </>
   );
 }
