@@ -7,7 +7,7 @@ const Navbar = () => {
   const navigation = [
     "Home",
     "Data Analysis",
-    "Technology",
+    "Technologies",
     "Solutions",
     "Enter Data",
   ];

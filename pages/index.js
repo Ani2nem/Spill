@@ -12,25 +12,18 @@ import Cta from "../components/cta";
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>Spill</title>
-        <meta
-          name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
-        />
-        <link rel="icon" href="" />
-      </Head>
-
       <Navbar />
       <Hero />
       <SectionTitle
-        title=" TECHNOLOGIES">
+        title="TECHNOLOGIES">
         <p className="subtitle">Harnessing Cutting-Edge Tools for Superior Performance</p>
       </SectionTitle>
       <Benefits data={benefitOne} />
+
       <Testimonials />
-        <SectionTitle
-            title="Try Spill"></SectionTitle>
+      <SectionTitle title="Get Your Prediction">
+        Enter the CSV file that you want analyzed below
+      </SectionTitle>
       <Cta />
       <Footer />
     </>
