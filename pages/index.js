@@ -15,28 +15,17 @@ import PopupWidget from "../components/popupWidget";
 const Home = () => {
   return (
     <>
-      <Head>
-        <title>Nextly - Free Nextjs & TailwindCSS Landing Page Template</title>
-        <meta
-          name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
-        />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <Navbar />
       <Hero />
       <SectionTitle
-        title=" TECHNOLOGIES">
+        title="TECHNOLOGIES">
         <p className="subtitle">Harnessing Cutting-Edge Tools for Superior Performance</p>
       </SectionTitle>
       <Benefits data={benefitOne} />
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions">
-        Answer your customers possible questions here, it will increase the
-        conversion rate as well as support or chat requests.
+      <SectionTitle title="Get Your Prediction">
+        Enter the CSV file that you want analyzed below
       </SectionTitle>
-      <Faq />
       <Cta />
       <Footer />
       <PopupWidget />
