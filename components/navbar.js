@@ -2,7 +2,6 @@ import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const navigation = [

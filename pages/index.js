@@ -25,7 +25,7 @@ const Home = () => {
 
       <Testimonials />
       <SectionTitle title="Get Your Prediction">
-        Enter the CSV file that you want analyzed below
+        Attach the CSV file that you want analyzed below
       </SectionTitle>
       <Cta />
       <Footer />
