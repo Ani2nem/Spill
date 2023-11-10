@@ -20,7 +20,6 @@ const Home = () => {
         title="TECHNOLOGIES">
         <p className="subtitle">Harnessing Cutting-Edge Tools for Superior Performance</p>
       </SectionTitle>
-
       <Benefits data={benefitOne} />
 
       <Testimonials />

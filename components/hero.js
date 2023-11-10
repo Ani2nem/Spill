@@ -22,7 +22,7 @@ const Hero = () => {
                       to="spill-js"
                       smooth={true}
                       duration={500}
-                      className="px-8 py-4 text-lg font-medium text-center text-white bg-orange-600 rounded-md"
+                      className="px-8 py-4 text-lg font-medium text-center text-white bg-orange-600 rounded-md cursor-pointer"
                     >
                     Try Spill
                     </Link>
@@ -58,7 +58,6 @@ const Hero = () => {
                   className={"object-cover"}
                   alt="Hero Illustration"
                   loading="eager"
-                  placeholder="blur"
               />
             </div>
           </div>

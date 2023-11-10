@@ -6,10 +6,9 @@ import { Disclosure } from "@headlessui/react";
 const Navbar = () => {
   const navigation = [
     "Home",
-    "Data Analysis",
+    "Learn",
     "Technologies",
-    "Solutions",
-    "Enter Data",
+    "Data Analysis",
   ];
 
 
